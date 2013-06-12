@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Required: Do not change the root directory -->
+<folder name="$SHOTNAME;">
+    <file name="shot_config.xml">
+        <append parse="true">
+            &lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+            &lt;shot&gt;
+                &lt;creation&gt;
+                    &lt;author&gt;%USERNAME%&lt;/author&gt;
+                    &lt;timestamp&gt;$__DATE__; $__TIME__;&lt;/timestamp&gt;
+                    &lt;system&gt;%COMPUTERNAME%&lt;/system&gt;
+                &lt;/creation&gt;
+            &lt;/shot&gt;
+        </append>
+    </file>
+
+    <!-- Required: This is where your compositions are stored in -->
+    <folder id="compositions" name="comp">
+    </folder>
+
+    <folder name="3D">
+        <folder name="textures">
+        </folder>
+        <folder name="scenes">
+        </folder>
+        <folder name="data">
+        </folder>
+    </folder>
+    
+    <folder name="images">
+        <folder name="Input">
+        </folder>
+        <folder name="Output" id="compoutput">
+        </folder>
+    </folder>
+</folder>

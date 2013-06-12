@@ -1,0 +1,9 @@
+include README
+include LICENSE
+include AUTHORS
+include epp/bin/epp_install_menu.eyeonscript
+recursive-include epp/_templates *.*
+recursive-include epp/_scripts *.*
+
+recursive-include _ui *.*
+recursive-include _rc *.*

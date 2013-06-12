@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+<paths>
+<projectdir></projectdir>
+</paths>
+<shotpattern name="Basename">
+    <pattern>\\([^\\.]+)[.]?[^\\]*$</pattern>
+</shotpattern>
+<shotpattern name="Basename after _">
+    <pattern>\\.*_([^\\.]+)[.]?[^\\]*$</pattern>
+</shotpattern>
+</settings>

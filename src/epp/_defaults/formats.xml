@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<formats>
+<format name="HDTV 720">
+<height>720</height>
+<hasfields>False</hasfields>
+<width>1280</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>30</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="5K IMAX® 70mm">
+<height>4096</height>
+<hasfields>False</hasfields>
+<width>5464</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>4.266667</framesperfeet>
+</format>
+<format name="3K VistaVision">
+<height>2048</height>
+<hasfields>False</hasfields>
+<width>3072</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>8</framesperfeet>
+</format>
+<format name="PAL / SECAM (D1)">
+<height>576</height>
+<hasfields>False</hasfields>
+<width>720</width>
+<aspectx>1</aspectx>
+<aspecty>0.9375</aspecty>
+<framerate>25</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="NTSC (Perception)">
+<height>480</height>
+<hasfields>False</hasfields>
+<width>720</width>
+<aspectx>0.9</aspectx>
+<aspecty>1</aspecty>
+<framerate>29.97</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="NTSC 16:9">
+<height>486</height>
+<hasfields>False</hasfields>
+<width>720</width>
+<aspectx>1.2</aspectx>
+<aspecty>1</aspecty>
+<framerate>29.97</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="6K VistaVision">
+<height>4096</height>
+<hasfields>False</hasfields>
+<width>6144</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>8</framesperfeet>
+</format>
+<format name="4K 1.85">
+<height>1976</height>
+<hasfields>False</hasfields>
+<width>3656</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="PAL / SECAM (Square Pixel)">
+<height>576</height>
+<hasfields>False</hasfields>
+<width>768</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>25</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="NTSC (DV)">
+<height>480</height>
+<hasfields>False</hasfields>
+<width>720</width>
+<aspectx>0.9</aspectx>
+<aspecty>1</aspecty>
+<framerate>29.97</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="2K Academy (Regular 35)">
+<height>1332</height>
+<hasfields>False</hasfields>
+<width>1828</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="2K Anamorphic (CinemaScope)">
+<height>1556</height>
+<hasfields>False</hasfields>
+<width>1828</width>
+<aspectx>2</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="4K Full Aperture (Super 35)">
+<height>3112</height>
+<hasfields>False</hasfields>
+<width>4096</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="PALplus 16:9">
+<height>576</height>
+<hasfields>False</hasfields>
+<width>720</width>
+<aspectx>1</aspectx>
+<aspecty>0.703125</aspecty>
+<framerate>25</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="2K Academy in Full Aperture">
+<height>1556</height>
+<hasfields>False</hasfields>
+<width>2048</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="4K Academy (Regular 35)">
+<height>2664</height>
+<hasfields>False</hasfields>
+<width>3656</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="2K Full Aperture (Super 35)">
+<height>1556</height>
+<hasfields>False</hasfields>
+<width>2048</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="2K 1.85">
+<height>988</height>
+<hasfields>False</hasfields>
+<width>1828</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="4K Academy in Full Aperture">
+<height>3112</height>
+<hasfields>False</hasfields>
+<width>4096</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="4K Anamorphic (CinemaScope)">
+<height>3112</height>
+<hasfields>False</hasfields>
+<width>3656</width>
+<aspectx>2</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+<format name="HDTV 1080">
+<height>1080</height>
+<hasfields>False</hasfields>
+<width>1920</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>30</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="Multimedia">
+<height>240</height>
+<hasfields>False</hasfields>
+<width>320</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>15</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="NTSC (D1)">
+<height>486</height>
+<hasfields>False</hasfields>
+<width>720</width>
+<aspectx>0.9</aspectx>
+<aspecty>1</aspecty>
+<framerate>29.97</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="NTSC (Square Pixel)">
+<height>480</height>
+<hasfields>False</hasfields>
+<width>640</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>29.97</framerate>
+<framesperfeet>1</framesperfeet>
+</format>
+<format name="D16">
+<height>2304</height>
+<hasfields>False</hasfields>
+<width>2880</width>
+<aspectx>1</aspectx>
+<aspecty>1</aspecty>
+<framerate>24</framerate>
+<framesperfeet>16</framesperfeet>
+</format>
+</formats>

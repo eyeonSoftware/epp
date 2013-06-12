@@ -1,0 +1,67 @@
+-- Installs the Fusion.menus or appends/replaces epp entries if available.
+
+cleanTable = {
+    Comp =
+    {
+    },
+}
+
+eppTable = {"epp", Index=6,
+            {
+                { "Set Project/Shot", [[@Scripts:Comp\epp\Set_Project_Shot.py]] },
+                { "Save As", [[@Scripts:Comp\epp\Save_As.py]] },
+                { "Save New Version", [[@Scripts:Comp\epp\Save_New_Version.py]] },
+                { "SEPARATOR", },
+                { "Create Saver", [[@Scripts:Comp\epp\Create_Saver.py]] },
+            }
+        }
+
+------------------------------------------------------------------------
+function createMenu(path)
+    print ("INFO: Fusion.menus does not exists. Created.")
+    eyeon.writefile(path, cleanTable)
+end
+
+------------------------------------------------------------------------
+function insertMenu(path)
+    menu = eyeon.readfile(path)
+
+    if menu.Comp == nil then
+        menu.Comp = {}
+        menu.Comp[1] = eppTable
+    else
+        added = false
+        for i, v in menu.Comp do
+            if type(v) == "table" and v[1]:lower() == "epp" then
+                -- Replace the eppTable
+                menu.Comp[i] = eppTable
+                print ("INFO: epp entry exists. Replaced.")
+                added = true
+            end
+        end
+
+        if added == false then
+            print ("INFO: epp entry created.")
+            table.insert(menu.Comp, eppTable)
+        end
+    end
+
+    eyeon.writefile(path, menu)
+
+end
+
+fu = Fusion()
+if fu == nil then
+    profileDir = [[C:\ProgramData\eyeon\Fusion\Profiles\Default\]]
+else
+    profileDir = fu:MapPath("Profile:")
+end
+
+menuFilePath = profileDir .. "Fusion.menus"
+
+if eyeon.fileexists(menuFilePath) == false then
+    createMenu(menuFilePath)
+end
+
+insertMenu(menuFilePath)
+

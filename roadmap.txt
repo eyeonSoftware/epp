@@ -1,0 +1,24 @@
+Overall
++ Logging
++ Subshots / Subprojects
+- Installation on Network Drive
+- Binary distribution
+- Custom Installer for Server/Repository and Clients
+- Updating
+- Internal fixes and refactoring
+
+Fusion
+- Send To Generation
+- Set/Get State
+- Set/Get User
+- Automatic Footage Import
+- Store Comps: Pathmap
+- Menu Entries
+
+Generation
+- Set/Get User
+- Set/Get State
+(- Automatic Footage Import)
++ Automatic Shot Import
++ Fix Metadata from Standins
+- Save Current Frame as Standin

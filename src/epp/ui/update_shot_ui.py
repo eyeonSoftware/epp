@@ -1,0 +1,137 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'C:\eyeon\repos\epp\src\_ui\update_shot.ui'
+#
+# Created: Fri May 24 18:23:01 2013
+#      by: pyside-uic 0.2.14 running on PySide 1.1.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PySide import QtCore, QtGui
+
+class Ui_dlgUpdateShot(object):
+    def setupUi(self, dlgUpdateShot):
+        dlgUpdateShot.setObjectName("dlgUpdateShot")
+        dlgUpdateShot.resize(425, 405)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icons/epp_128.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        dlgUpdateShot.setWindowIcon(icon)
+        self.verticalLayout_2 = QtGui.QVBoxLayout(dlgUpdateShot)
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.lblHeader = QtGui.QLabel(dlgUpdateShot)
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(14)
+        self.lblHeader.setFont(font)
+        self.lblHeader.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTop|QtCore.Qt.AlignTrailing)
+        self.lblHeader.setMargin(10)
+        self.lblHeader.setObjectName("lblHeader")
+        self.verticalLayout_2.addWidget(self.lblHeader)
+        self.verticalLayout = QtGui.QVBoxLayout()
+        self.verticalLayout.setContentsMargins(12, 9, 15, 24)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.gridLayout1 = QtGui.QGridLayout()
+        self.gridLayout1.setObjectName("gridLayout1")
+        self._lblShot = QtGui.QLabel(dlgUpdateShot)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self._lblShot.sizePolicy().hasHeightForWidth())
+        self._lblShot.setSizePolicy(sizePolicy)
+        self._lblShot.setMinimumSize(QtCore.QSize(120, 0))
+        font = QtGui.QFont()
+        font.setWeight(75)
+        font.setBold(True)
+        self._lblShot.setFont(font)
+        self._lblShot.setObjectName("_lblShot")
+        self.gridLayout1.addWidget(self._lblShot, 3, 0, 1, 1)
+        self._lblProject = QtGui.QLabel(dlgUpdateShot)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self._lblProject.sizePolicy().hasHeightForWidth())
+        self._lblProject.setSizePolicy(sizePolicy)
+        self._lblProject.setMinimumSize(QtCore.QSize(120, 0))
+        font = QtGui.QFont()
+        font.setWeight(75)
+        font.setBold(True)
+        self._lblProject.setFont(font)
+        self._lblProject.setObjectName("_lblProject")
+        self.gridLayout1.addWidget(self._lblProject, 1, 0, 1, 1)
+        spacerItem = QtGui.QSpacerItem(20, 10, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Fixed)
+        self.gridLayout1.addItem(spacerItem, 2, 0, 1, 1)
+        self.cmbShot = QtGui.QComboBox(dlgUpdateShot)
+        self.cmbShot.setObjectName("cmbShot")
+        self.gridLayout1.addWidget(self.cmbShot, 3, 1, 1, 1)
+        self.lblProject = QtGui.QLabel(dlgUpdateShot)
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.lblProject.sizePolicy().hasHeightForWidth())
+        self.lblProject.setSizePolicy(sizePolicy)
+        self.lblProject.setText("")
+        self.lblProject.setObjectName("lblProject")
+        self.gridLayout1.addWidget(self.lblProject, 1, 1, 1, 1)
+        self.verticalLayout.addLayout(self.gridLayout1)
+        self.line = QtGui.QFrame(dlgUpdateShot)
+        self.line.setFrameShape(QtGui.QFrame.HLine)
+        self.line.setFrameShadow(QtGui.QFrame.Sunken)
+        self.line.setObjectName("line")
+        self.verticalLayout.addWidget(self.line)
+        self.chkShotLike = QtGui.QCheckBox(dlgUpdateShot)
+        self.chkShotLike.setChecked(True)
+        self.chkShotLike.setObjectName("chkShotLike")
+        self.verticalLayout.addWidget(self.chkShotLike)
+        spacerItem1 = QtGui.QSpacerItem(20, 40, QtGui.QSizePolicy.Minimum, QtGui.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem1)
+        self.lblStatus = QtGui.QLabel(dlgUpdateShot)
+        self.lblStatus.setStyleSheet("")
+        self.lblStatus.setOpenExternalLinks(True)
+        self.lblStatus.setObjectName("lblStatus")
+        self.verticalLayout.addWidget(self.lblStatus)
+        self.horizontalLayout_2 = QtGui.QHBoxLayout()
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        spacerItem2 = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem2)
+        self.butUpdate = QtGui.QPushButton(dlgUpdateShot)
+        self.butUpdate.setObjectName("butUpdate")
+        self.horizontalLayout_2.addWidget(self.butUpdate)
+        self.butCancel = QtGui.QPushButton(dlgUpdateShot)
+        self.butCancel.setObjectName("butCancel")
+        self.horizontalLayout_2.addWidget(self.butCancel)
+        self.verticalLayout.addLayout(self.horizontalLayout_2)
+        self.verticalLayout_2.addLayout(self.verticalLayout)
+
+        self.retranslateUi(dlgUpdateShot)
+        QtCore.QObject.connect(self.butUpdate, QtCore.SIGNAL("clicked()"), dlgUpdateShot.accept)
+        QtCore.QObject.connect(self.butCancel, QtCore.SIGNAL("clicked()"), dlgUpdateShot.reject)
+        QtCore.QMetaObject.connectSlotsByName(dlgUpdateShot)
+        dlgUpdateShot.setTabOrder(self.butUpdate, self.butCancel)
+
+    def retranslateUi(self, dlgUpdateShot):
+        dlgUpdateShot.setWindowTitle(QtGui.QApplication.translate("dlgUpdateShot", "Update Shot", None, QtGui.QApplication.UnicodeUTF8))
+        self.lblHeader.setText(QtGui.QApplication.translate("dlgUpdateShot", "Update Shot", None, QtGui.QApplication.UnicodeUTF8))
+        self._lblShot.setToolTip(QtGui.QApplication.translate("dlgUpdateShot", "Project name and also the projects root directory name", None, QtGui.QApplication.UnicodeUTF8))
+        self._lblShot.setWhatsThis(QtGui.QApplication.translate("dlgUpdateShot", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">The </span><span style=\" font-size:8pt; font-weight:600;\">Name</span><span style=\" font-size:8pt;\"> for the project needs to be set based on studio conventions. This name is also used for the root folder of the project. Make sure it is file system safe and does not contain invalid characters. The default widget limits input to valid characters. Already existing project names can not be used to prevent data loss through overwriting.</span></p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self._lblShot.setText(QtGui.QApplication.translate("dlgUpdateShot", "Shot", None, QtGui.QApplication.UnicodeUTF8))
+        self._lblProject.setToolTip(QtGui.QApplication.translate("dlgUpdateShot", "Format Template for production.", None, QtGui.QApplication.UnicodeUTF8))
+        self._lblProject.setWhatsThis(QtGui.QApplication.translate("dlgUpdateShot", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The <span style=\" font-weight:600;\">Format Templates</span> are presets of Width, Height, Framerage (FPS) and Aspect Ratios for a Production. They are stored in your <span style=\" font-style:italic;\">epp_root\\templates\\formats.xml</span> file. As starting point formats can be imported during install of epp from eyeon Fusion.</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self._lblProject.setText(QtGui.QApplication.translate("dlgUpdateShot", "Project", None, QtGui.QApplication.UnicodeUTF8))
+        self.chkShotLike.setText(QtGui.QApplication.translate("dlgUpdateShot", "Only comps named like shot", None, QtGui.QApplication.UnicodeUTF8))
+        self.lblStatus.setStatusTip(QtGui.QApplication.translate("dlgUpdateShot", "Warning Status", None, QtGui.QApplication.UnicodeUTF8))
+        self.lblStatus.setText(QtGui.QApplication.translate("dlgUpdateShot", "WARINING", None, QtGui.QApplication.UnicodeUTF8))
+        self.butUpdate.setStatusTip(QtGui.QApplication.translate("dlgUpdateShot", "Create Project and Directories", None, QtGui.QApplication.UnicodeUTF8))
+        self.butUpdate.setText(QtGui.QApplication.translate("dlgUpdateShot", "Update", None, QtGui.QApplication.UnicodeUTF8))
+        self.butCancel.setStatusTip(QtGui.QApplication.translate("dlgUpdateShot", "Cancel the operation", None, QtGui.QApplication.UnicodeUTF8))
+        self.butCancel.setText(QtGui.QApplication.translate("dlgUpdateShot", "Cancel", None, QtGui.QApplication.UnicodeUTF8))
+
+import epp_rc

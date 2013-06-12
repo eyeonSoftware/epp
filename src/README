@@ -1,0 +1,26 @@
+eyeon production pipeline (epp)
+###############################
+
+Module and collection of scripts around `eyeon<http://www.eyeonline.com>`_ products to manage
+a production pipeline.
+
+Installation
+############
+
+Install the epp python package.
+
+Copy the scripts from the fusion subfolder into your Fusion Script folder.
+
+Copy the scripts from the generation subfolder into your Generation Toolbar Script folder.
+
+Usage
+#####
+
+Configure the epp.settings.py file. Adjust your root project path.
+Configure the epp.templates\struct_project file to reflect your project directory structure convention.
+Configure the epp.templates\struct_shot file to reflect your shot directory structure convention.
+
+In Genration use add_project first to create a Generation Project representing your project and
+your directory strucutre. Then use add_shot to create Shots and their Directory Sturucture.
+
+See the help for more info.

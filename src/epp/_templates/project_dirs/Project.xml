@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Required: Do not change the root directory -->
+<folder name="$PROJECTNAME;">
+    <!-- Required: Make sure your format is defined in the project_config.xml at the root -->
+    <file name="project_config.xml">
+        <append parse="true">
+            &lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+            &lt;project&gt;
+                &lt;format&gt;
+                    &lt;name&gt;$format_name;&lt;/name&gt;
+                    &lt;width&gt;$format_width;&lt;/width&gt;
+                    &lt;height&gt;$format_height;&lt;/height&gt;
+                    &lt;framerate&gt;$format_framerate;&lt;/framerate&gt;
+                    &lt;aspectx&gt;$format_aspectx;&lt;/aspectx&gt;
+                    &lt;aspecty&gt;$format_aspecty;&lt;/aspecty&gt;
+                &lt;/format&gt;
+                &lt;creation&gt;
+                    &lt;author&gt;%USERNAME%&lt;/author&gt;
+                    &lt;timestamp&gt;$__DATE__; $__TIME__;&lt;/timestamp&gt;
+                    &lt;system&gt;%COMPUTERNAME%&lt;/system&gt;
+                &lt;/creation&gt;
+            &lt;/project&gt;
+        </append>
+    </file>
+
+    <!-- Required: This is where shots will be created in -->
+    <folder name="Shots" id="shots">
+    </folder>
+
+    <!-- Required: This is where the generation project goes -->
+    <folder name="_gen" id="generation">
+    </folder>
+
+    <!-- Create your individual directory structure. You can use ids to access them
+         via API later on. -->
+    <folder name="3D">
+        <folder name="Models">
+        </folder>
+        <folder name="Textures">
+        </folder>
+    </folder>
+
+    <folder name="References">
+        <folder name="Images">
+        </folder>
+    </folder>
+    
+    <folder name="Client">
+        <folder name="Input">
+        </folder>
+        <folder name="Output">
+        </folder>
+    </folder>
+</folder>
