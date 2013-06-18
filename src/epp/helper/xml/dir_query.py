@@ -101,7 +101,9 @@ class DirQuery(object):
                 repl = self.varset.get("creationvars", varname)
 
             if repl is not None:
-                name = self.PAT_VAR.subn(re.escape(repl), name)[0]
+                new_name, num = self.PAT_VAR.subn(repl.replace("\\", "\\\\"), name)
+                if num > 0:
+                    name = new_name
 
         mat = self.PAT_ENVVAR.match(name)
         if mat is not None:
@@ -113,7 +115,9 @@ class DirQuery(object):
                 repl = self.varset.get("creationenvvars", varname)
 
             if repl is not None:
-                name = self.PAT_ENVVAR.subn(re.escape(repl), name)[0]
+                new_name, num = self.PAT_ENVVAR.subn(repl.replace("\\", "\\\\"), name)
+                if num > 0:
+                    name = new_name
 
         return name
     

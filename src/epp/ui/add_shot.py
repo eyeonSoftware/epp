@@ -147,7 +147,6 @@ class AddShotDialog(Ui_dlgAddShot, QDialog):
         index += len(self.PROJECTNAME)
 
         self.PROJECTDIR = self.GENFILEPATH[:index].rstrip(os.path.sep)
-        
 
         if not self.PROJECTDIR.lower().startswith(self.PROJECTROOT.lower()):
             return False

@@ -325,6 +325,7 @@ class AddProjectDialog(Ui_dlgAddProject, QDialog):
         print project_format
         """
 
+        print self.plugName.text()
         ret, msg = control.add_project(self.plugName.text(), self.cmbDirStructure.currentText()+".xml", project_format, self._gen)
 
         if not ret:
